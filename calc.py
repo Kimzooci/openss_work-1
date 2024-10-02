@@ -7,6 +7,7 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
+    print("곱셈 연산 중...")
     return a * b
 
 def divide(a, b):
