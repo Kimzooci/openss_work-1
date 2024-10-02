@@ -6,9 +6,9 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+# 다른 방식으로 수정된 코드
 def multiply(a, b):
-    print("곱셈 연산 중...")
-    return a * b
+    return a * b + 1  # 실수로 1을 더해버리는 수정
 
 def divide(a, b):
     if b != 0:
