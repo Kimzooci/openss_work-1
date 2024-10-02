@@ -8,7 +8,9 @@ def subtract(a, b):
 
 # 다른 방식으로 수정된 코드
 def multiply(a, b):
-    return a * b + 1  # 실수로 1을 더해버리는 수정
+    print("곱셈 연산 중...")
+    return a * b  # 실수 수정, 1을 더하지 않음
+
 
 def divide(a, b):
     if b != 0:
